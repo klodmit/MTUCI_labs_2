@@ -26,7 +26,7 @@ path_first_image = 'C:\\Users\\dmitr\\PycharmProjects\\pythonProject\\Trees\\NoT
 io.imshow(path_first_image)
 io.show()
 
-#TODO Задание 3 Создать массив параметров X для машинного обучения.
+# Задание 3 Создать массив параметров X для машинного обучения.
 # Каждая компонента R,G,B каждого пикселя -- это отдельный параметр - столбец,
 # каждое изображение -- строка.
 x_data_no_trees_flat = [img.flatten() for img in x_data_no_trees]
